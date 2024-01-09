@@ -1,0 +1,151 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  color: #fff;
+}
+
+a {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card-text {
+  color: #0000;
+}
+
+.contenedor {
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
+
+.imagen-de-fondo {
+  min-height: 1000px;
+  background-image: linear-gradient(120deg, #15d6f0, #041050);
+  background-attachment: fixed; /* Fija el fondo */
+  /* Ajustes de margen y relleno para demostración */
+  margin: 0;
+  padding: 20px;
+  color: white; /* Altura al 100% del viewport */
+}
+
+/* Media query para dispositivos más pequeños */
+@media (max-width: 768px) {
+  .info {
+    width: 100%; /* Ancho completo en dispositivos pequeños */
+    max-width: 400px; /* Ancho máximo en dispositivos medianos */
+  }
+}
+
+.inicio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  color: #ffff;
+  border-radius: 10px; /* Radio de borde para hacer esquinas redondeadas */
+  box-shadow: 0 10px 10px 10px rgba(255, 255, 255, 0.525); /* Sombra con color */
+  text-align: justify;
+  width: 700px;
+  height: 450px;
+}
+
+.info {
+  background-color: rgba(0, 0, 0, 0.3); /* Color de fondo del card */
+  padding: 20px;
+  margin: 20px;
+  margin-top: 12%;
+  margin-left: 2%;
+}
+
+.skills {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+.skills .icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 8px 8px 8px rgba(255, 255, 255, 0.525);
+  padding: 20px;
+  margin: 10px;
+}
+
+.projects {
+  padding: 32px 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.project-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects .card-project {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 8px 8px 8px rgba(255, 255, 255, 0.525);
+  padding: 20px;
+  margin: 10px;
+}
+
+.projects p {
+  color: #000;
+}
+
+.projects .card-project a {
+  color: #000;
+  text-align: center;
+  font-size: medium;
+}
+
+.img-perfil {
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  right: 15px;
+  border-radius: 50%;
+  margin: auto;
+  box-shadow: 0 8px 8px 8px rgba(255, 255, 255, 0.525);
+}
